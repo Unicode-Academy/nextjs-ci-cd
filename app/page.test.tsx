@@ -6,5 +6,5 @@ import Page from "./page";
 
 it("App Router: Works with Server Components", () => {
   render(<Page />);
-  expect(screen.getByRole("heading")).toHaveTextContent("Unicode Academy1");
+  expect(screen.getByRole("heading")).toHaveTextContent("Unicode Academy");
 });
